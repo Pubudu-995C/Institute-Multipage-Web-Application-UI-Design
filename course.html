@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/53e4511679.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Eduford Campus</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Courses</h1>
+    </section>
+    <!-- ========================End of Header====================== -->
+
+    <section class="course">
+      <h1>Course We Offer</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo,
+        consequatur!
+      </p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+            possimus, ea cumque ut, animi quasi distinctio vitae aliquam
+            reprehenderit laboriosam eaque, cum corporis ducimus ipsam fugiat
+            rerum vel recusandae inventore.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+            possimus, ea cumque ut, animi quasi distinctio vitae aliquam
+            reprehenderit laboriosam eaque, cum corporis ducimus ipsam fugiat
+            rerum vel recusandae inventore.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore
+            possimus, ea cumque ut, animi quasi distinctio vitae aliquam
+            reprehenderit laboriosam eaque, cum corporis ducimus ipsam fugiat
+            rerum vel recusandae inventore.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ========================End of Course====================== -->
+
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia, ipsa!
+      </p>
+
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/library.png" />
+          <h3>World Class Library</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
+            nesciunt molestias debitis deserunt minus cumque?
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/basketball.png" />
+          <h3>Largest Play Ground</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
+            nesciunt molestias debitis deserunt minus cumque?
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/cafeteria.png" />
+          <h3>Tasty and Healthy Food</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
+            nesciunt molestias debitis deserunt minus cumque?
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ========================End of Facilities====================== -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur elit. Culpa, et nisi veniam
+        deleniti provident fugit nesciunt placeat ex commodi quia <br />
+        laudantium excepturi vel dolore voluptatibus hic dolorum odio dolorem
+        reprehenderit.
+      </p>
+
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>&copy; Eduford 2023 All Rigts Receved</p>
+    </section>
+    <!-- ========================End of Footer====================== -->
+
+    <script>
+      const navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/53e4511679.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Eduford Campus</title>
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+    <!-- ========================End of Header====================== -->
+
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d506780.3081579704!2d79.91094681532323!3d7.100347166746827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3673f5e22ab3b%3A0xcbaef11262bec73!2sAPIIT%20Kandy%20Campus!5e0!3m2!1sen!2slk!4v1691384186984!5m2!1sen!2slk"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa-solid fa-house"></i>
+            <span>
+              <h5>APIIT Kandy Campus</h5>
+              <p>542 Peradeniya Rd, Kandy 20000</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa-solid fa-phone"></i>
+            <span>
+              <h5>+94 123456789</h5>
+              <p>Monday to Sarturday, 9AM to 6PM</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <span>
+              <h5>info@eduford.com</h5>
+              <p>Email us your query</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form action="form-handler.php" method="post">
+            <input
+              type="text"
+              name="name"
+              placeholder="Enter Your Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter Email Address"
+              required
+            />
+            <input
+              type="text"
+              name="subject"
+              placeholder="Enter Your Subject"
+              required
+            />
+            <textarea
+              rows="8"
+              name="message"
+              placeholder="Message"
+              required
+            ></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- ========================End of Contact Us====================== -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur elit. Culpa, et nisi veniam
+        deleniti provident fugit nesciunt placeat ex commodi quia <br />
+        laudantium excepturi vel dolore voluptatibus hic dolorum odio dolorem
+        reprehenderit.
+      </p>
+
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>&copy; Eduford 2023 All Rigts Receved</p>
+    </section>
+    <!-- ========================End of Footer====================== -->
+
+    <script>
+      const navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

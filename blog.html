@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/53e4511679.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Eduford Campus</title>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programs For 2023</h1>
+    </section>
+    <!-- ========================End of Header====================== -->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/certificate.jpg" />
+          <h2>Our Certificate & Online Programs For 2023</h2>
+          <p align="justify">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere
+            odit officiis quaerat et iure blanditiis veritatis laboriosam
+            tempore cupiditate fuga amet deserunt, incidunt sit sequi ratione
+            animi quis nostrum molestiae temporibus, necessitatibus ad porro
+            optio. Dolorum odit maxime eligendi molestias? Voluptate,
+            consectetur delectus facere soluta exercitationem molestias debitis
+            aperiam libero!
+          </p>
+          <br />
+          <p align="justify">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            error sapiente fugiat aspernatur quo at dolore voluptatum corporis!
+            Doloremque, assumenda eaque enim a labore hic, sed obcaecati ipsam
+            exercitationem iusto quibusdam commodi est. Voluptate veniam, id
+            aspernatur pariatur sed velit accusamus debitis voluptates officiis
+            modi laboriosam soluta aperiam nostrum cum labore totam consequatur,
+            omnis vitae expedita placeat rerum impedit ratione, culpa eum. Autem
+            eaque doloremque suscipit eligendi natus possimus id modi? Itaque
+            quae rem sapiente doloribus expedita. Omnis velit sapiente sed
+            voluptas dolore iure esse reiciendis, nobis consectetur, corrupti
+            similique libero totam laudantium facere neque fugit architecto,
+            magni illum et?
+          </p>
+          <br />
+          <p align="justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est et
+            suscipit ipsum a numquam at, facilis quos possimus ea voluptatibus
+            eum quia harum saepe quod obcaecati quibusdam aut aspernatur sed
+            laboriosam, molestiae eius expedita. Esse quia mollitia dolorem quas
+            odio maxime quos suscipit, eaque ea eveniet officiis doloremque
+            magnam, deserunt numquam libero vel eius quidem aspernatur, nisi
+            sunt assumenda sint. Saepe magni accusantium explicabo nam odio
+            maiores voluptas cum, dolorem sapiente ipsa aperiam ipsum,
+            voluptatum quaerat, obcaecati blanditiis veniam recusandae.
+          </p>
+          <br />
+          <p align="justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+            accusantium aliquid, possimus non magnam quis dolore animi dicta!
+            Sapiente neque ducimus quisquam eum ratione cum distinctio dolore
+            laudantium quaerat! Magni impedit consectetur odit, ut voluptas
+            voluptates id magnam harum aliquid eius adipisci obcaecati sequi
+            doloremque cum debitis repellat expedita atque!
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter Email" />
+              <textarea rows="5" placeholder="Your Comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>34</span>
+          </div>
+          <div>
+            <span>AutoCAD</span>
+            <span>42</span>
+          </div>
+          <div>
+            <span>Journalism</span>
+            <span>22</span>
+          </div>
+          <div>
+            <span>Commerce</span>
+            <span>30</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========================End of Blog Page====================== -->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur elit. Culpa, et nisi veniam
+        deleniti provident fugit nesciunt placeat ex commodi quia <br />
+        laudantium excepturi vel dolore voluptatibus hic dolorum odio dolorem
+        reprehenderit.
+      </p>
+
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      <p>&copy; Eduford 2023 All Rigts Receved</p>
+    </section>
+    <!-- ========================End of Footer====================== -->
+
+    <script>
+      const navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
